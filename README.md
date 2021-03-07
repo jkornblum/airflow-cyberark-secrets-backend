@@ -17,7 +17,7 @@ Update your `airflow.cfg` with the following
 [secrets]
 backend = airflow_cyberark_secrets_backend.CyberArkSecretsBackend
 
-backend_kwargs = {"app_id": "/files/var.json", "ccp_url": "/files/conn.json", "safe": "", "verify": "/path/to/ssl/cert.pem" }
+backend_kwargs = {"app_id": "", "ccp_url": "", "safe": "", "verify": "/path/to/ssl/cert.pem" }
 ```
 
 The backend_kwargs:
